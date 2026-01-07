@@ -6,24 +6,41 @@ wheel>=0.38.0
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
 websockets==12.0
-
-# Image processing (headless version for server)
-opencv-python-headless==4.8.1.78
-numpy==1.24.3
-Pillow==10.1.0
-
-# Utilities
-pydantic==2.5.0
 python-multipart==0.0.6
 
-# AI/ML Libraries (CPU versions for Render)
-torch --index-url https://download.pytorch.org/whl/cpu
-torchvision --index-url https://download.pytorch.org/whl/cpu
-
+# HTTP requests
 requests==2.31.0
 
-rich==13.7.0
-pyyaml==6.0.1
-scipy==1.11.3
+# Image processing
+opencv-python-headless==4.8.1.78
+Pillow==10.1.0
 scikit-image==0.21.0
+
+# Numerical computing
+numpy==1.24.3
+scipy==1.11.3
+
+# AI/ML Libraries (CPU versions for Render)
+torch==2.1.0
+torchvision==0.16.0
+torchaudio==2.1.0
+
+# Deep learning utilities
 safetensors==0.4.1
+onnxruntime==1.16.0
+
+# Data handling
+pyyaml==6.0.1
+pydantic==2.5.0
+
+# CLI and logging
+rich==13.7.0
+tqdm==4.66.1
+
+# Face detection and processing (if needed)
+insightface==0.7.3
+onnx==1.15.0
+
+# Additional utilities
+imageio==2.31.5
+imageio-ffmpeg==0.4.9
