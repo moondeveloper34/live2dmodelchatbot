@@ -15,3 +15,7 @@ Pillow==10.1.0
 # Utilities
 pydantic==2.5.0
 python-multipart==0.0.6
+
+# AI/ML Libraries (CPU versions for Render)
+torch --index-url https://download.pytorch.org/whl/cpu
+torchvision --index-url https://download.pytorch.org/whl/cpu
