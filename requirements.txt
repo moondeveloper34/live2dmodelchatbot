@@ -20,7 +20,7 @@ scikit-image==0.21.0
 numpy==1.24.3
 scipy==1.11.3
 
-# AI/ML Libraries (CPU versions for Render)
+# AI/ML Libraries (CPU versions)
 torch==2.1.0
 torchvision==0.16.0
 torchaudio==2.1.0
@@ -36,11 +36,15 @@ pydantic==2.5.0
 # CLI and logging
 rich==13.7.0
 tqdm==4.66.1
+tyro==0.5.0
 
-# Face detection and processing (if needed)
+# Face detection and processing
 insightface==0.7.3
 onnx==1.15.0
 
 # Additional utilities
 imageio==2.31.5
 imageio-ffmpeg==0.4.9
+
+# Filtering and tracking
+pykalman==0.9.5
