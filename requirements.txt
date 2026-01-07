@@ -36,7 +36,7 @@ pydantic==2.5.0
 # CLI and logging
 rich==13.7.0
 tqdm==4.66.1
-tyro==0.5.0
+tyro==0.8.5
 
 # Face detection and processing
 insightface==0.7.3
@@ -48,3 +48,5 @@ imageio-ffmpeg==0.4.9
 
 # Filtering and tracking
 pykalman==0.9.5
+
+# moon==1.0.0
