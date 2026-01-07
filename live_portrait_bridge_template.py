@@ -11,6 +11,14 @@ from io import BytesIO
 from PIL import Image
 from src.config.inference_config import InferenceConfig
 from src.config.crop_config import CropConfig
+
+# Auto-download weights if missing
+import os
+if not os.path.exists("pretrained_weights/base_models/appearance_feature_extractor.pth"):
+    print("Downloading missing model weights...")
+    import download_weights
+    download_weights.main()
+
 from src.live_portrait_pipeline import LivePortraitPipeline
 from src.utils.io import load_image_rgb
 from src.utils.camera import get_rotation_matrix
