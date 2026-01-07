@@ -1,4 +1,8 @@
--r requirements_base.txt
-
-onnxruntime-gpu==1.18.0
-transformers==4.38.0
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+websockets==12.0
+opencv-python-headless==4.8.1.78
+numpy==1.24.3
+Pillow==10.1.0
+pydantic==2.5.0
+python-multipart==0.0.6
